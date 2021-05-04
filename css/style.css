@@ -24,19 +24,31 @@ main {
     justify-content: center;
 }
 
-input[type=text] {
-    width: 50%;
-    float:right;
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+.input[type="url"],
+select{
+float: right;
+ width:50%;
+ height:25px;
+ line-height:25px;
+ color:#333;
+ background-color:#fff;
+ border:1px solid #236;
+ border-radius:3px;
+ padding:3px;
 }
 
-input[type=select] {
-    width: 50%;
-    float:right;
+
+input[type="submit"] {
+    clear:both;
 }
 
-input[type=submit] {
-    width: 50%;
-    float:right;
+label {
+    height:25px;
+    line-height: 25px;
+    padding:3px;
 }
 
 table {
